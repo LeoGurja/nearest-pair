@@ -1,0 +1,19 @@
+Par mais próximo:
+implementar o algoritmo de cálculo direto e o algoritmo de divisão e conquista
+para calcular o par de pontos mais próximo dentre N pontos de coordenadas aleatórias do plano euclidiano (R^2).
+Fornecer pseudo-códigos e discutir suas complexidades.
+Gerar N pontos dentro do quadrado de vértices (0,0), (0,A), (A,0), (A,A).
+Escolher o valor de A. As coordenadas dos N pontos não devem ser inteiras.
+
+Escolher o valor de A.
+As coordenadas dos N pontos não devem ser inteiras.
+Para cada valor de N, gerar 5 ou 10 conjuntos diferentes de N pontos e aplicar os dois algoritmos.
+Comparar para cada conjunto de dados as distâncias mínimas encontradas pelos dois algoritmos.
+Medir os tempos médios de processamento de cada algoritmo usando a função fornecida pelo professor.
+
+Avaliar se o comportamento dos algoritmos é consistente com as complexidades apresentadas.
+Avaliar o efeito da variação do valor de A nos tempos de processamento.
+Implementar e mostrar uma animação no viceo que mostre conjunto de pontos e indique a evolução do par mais próximo e de
+sua distância ao longo do algoritmo, exemplificando para um exemplo pequeno e para outro grande.
+
+previa terça e entrega sexta
