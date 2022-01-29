@@ -1,2 +1,2 @@
-target/*.o
-target/*.a
+target/*
+!target/.keep
