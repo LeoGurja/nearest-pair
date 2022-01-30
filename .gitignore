@@ -1,2 +1,5 @@
 target/*
 !target/.keep
+points/*
+!points/.keep
+results/
