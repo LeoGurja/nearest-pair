@@ -1,4 +1,4 @@
-#include "sort.h"
+#include "nearest_pair.h"
 
 #ifndef DIVIDE_AND_CONQUER_NEAREST_PAIR_H
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))
