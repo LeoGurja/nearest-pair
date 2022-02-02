@@ -1,4 +1,4 @@
-#include "../include/point.h"
+#include "include/point.h"
 
 Point *new_point(double x, double y)
 {

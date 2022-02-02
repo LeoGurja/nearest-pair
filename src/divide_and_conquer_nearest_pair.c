@@ -1,4 +1,4 @@
-#include "../include/divide_and_conquer_nearest_pair.h"
+#include "include/divide_and_conquer_nearest_pair.h"
 
 Point **_divide_and_conquer_nearest_pair(Point **points, int begin, int end)
 {

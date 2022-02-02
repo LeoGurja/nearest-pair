@@ -1,4 +1,4 @@
-#include "../include/nearest_pair.h"
+#include "include/nearest_pair.h"
 
 Point **_nearest_pair(Point **points, int begin, int end)
 {

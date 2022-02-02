@@ -1,4 +1,4 @@
-#include "../include/time.h"
+#include "include/time.h"
 
 double get_CPU_time()
 {

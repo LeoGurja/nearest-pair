@@ -15,4 +15,4 @@ clean:
 	-rm **/*.o
 
 lint:
-	clang-tidy src/*.c include/*.h
+	clang-tidy src/*.c src/include/*.h

@@ -1,4 +1,4 @@
-#include "../include/quick_sort.h"
+#include "include/quick_sort.h"
 
 void quicksort(double *number, int first, int last)
 {

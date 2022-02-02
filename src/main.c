@@ -1,4 +1,4 @@
-#include "../include/main.h"
+#include "include/main.h"
 
 Point **read_points(int size)
 {
@@ -55,8 +55,8 @@ int main()
   double time;
 
   scanf("%d", &size);
-  time = test_nearest_pair(size);
-  // time = test_divide_and_conquer(size);
+  // time = test_nearest_pair(size);
+  time = test_divide_and_conquer(size);
   // time = test_quick_sort(size);
 
   printf("%d\t%lf\n", size, time);
