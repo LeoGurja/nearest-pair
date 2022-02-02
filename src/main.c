@@ -56,8 +56,8 @@ int main()
 
   scanf("%d", &size);
   // time = test_nearest_pair(size);
-  time = test_divide_and_conquer(size);
-  // time = test_quick_sort(size);
+  // time = test_divide_and_conquer(size);
+  time = test_quick_sort(size);
 
   printf("%d\t%lf\n", size, time);
   return 0;
