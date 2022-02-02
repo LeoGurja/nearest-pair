@@ -12,13 +12,13 @@ renderer.drawLine(result)
 
 function initPoints() {
   return [
-    new Point(34, 409),
-    new Point(270, 462),
-    new Point(322, 410),
-    new Point(384, 265),
-    new Point(458, 172),
-    new Point(550, 70),
-    new Point(644, 446),
-    new Point(830, 79),
+    new Point(34, 103),
+    new Point(270, 320),
+    new Point(331, 211),
+    new Point(413, 196),
+    new Point(505, 91),
+    new Point(636, 228),
+    new Point(709, 105),
+    new Point(830, 337)
   ]
 }
