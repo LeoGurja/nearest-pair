@@ -1,1 +1,0 @@
-void quicksort(double *number, int first, int last);

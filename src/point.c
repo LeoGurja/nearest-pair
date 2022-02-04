@@ -19,3 +19,9 @@ char *to_string(Point *p)
   sprintf(string, "(%.2f,%.2f)", p->x, p->y);
   return string;
 }
+
+int compare_y(const void *a, const void *b)
+{
+  Point *p1 = *(Point **)a, *p2 = *(Point **)b;
+  return (p1->y - p2->y);
+}

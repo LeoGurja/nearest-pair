@@ -17,3 +17,5 @@ Point *new_point(double x, double y);
 double distance(Point *a, Point *b);
 
 char *to_string(Point *p);
+
+int compare_y(const void *a, const void *b);
