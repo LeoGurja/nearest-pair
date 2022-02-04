@@ -13,7 +13,7 @@ def generate_coordinates(size: int) -> list:
     return list
 
 
-for size in range(1, 21):
+for size in range(1, 16):
     with open(f'points/{size}.txt', 'w') as f:
         f.write(f'{2**size}\n')
         for i in range(1, 6):
