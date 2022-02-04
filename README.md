@@ -3,10 +3,15 @@ Este experimento tem objetivo de comparar o comportamento de dois algoritmos que
 possuem o mesmo fim: encontrar o par mais próximo dentre um grupo de pontos.
 São estes o algoritmo iterativo e o algoritmo por divisão e conquista.
 
+# O experimento
+- Obter 5 conjuntos de pontos para cada N, sendo N o número de pontos do conjunto
+- N parte de 2<sup>1</sup> até 2<sup>15</sup>, dobrando a cada passo
+- Medir o tempo gasto para que cada algoritmo termine, sendo os dois algoritmos e o Quick Sort. 
+Sendo os dois primeiros implementados na linguagem C e Quick Sort a função declarada em _stdlib.h_.
+- Realizar a análise dos resultados e verificar se a eficiência do algoritmo de 
+divisão e conquista na prática condiz com a teoria
 # Algoritmo Direto
-Passar por todas as combinações de pontos e armazenar a menor distância até o momento
-
-# Pseudocódigo
+## Pseudocódigo
 ```
 FUNCAO par_mais_proximo(pontos)
   delta = INFINITO
@@ -16,15 +21,12 @@ FUNCAO par_mais_proximo(pontos)
   RETORNE delta
 ```
 
-# Complexidade
+## Complexidade
 T(n) = O(n) * O(n/2)
 T(n) = O(n^2)
 
 # Divisão e Conquista
-Segue a ideia de dividir, conquistar e combinar.
-
-
-# Pseudocódigo
+## Pseudocódigo
 ```
 FUNCAO divisao_e_conquista(pontos)
   SE tamanho(pontos) == 3
@@ -48,12 +50,10 @@ FUNCAO divisao_e_conquista(pontos)
   RETORNE delta
 ```
 
-# Complexidade
+## Complexidade
 T(n) = T(n/2) + T(n/2) + O(n) + O(nlogn) + O(n) * O(7)
 T(n) = 2T(n/2) + O(nlogn)
 T(n) = O(n(logn)^2)
-
-# O código
 
 # Resultados
 | Número de Pontos | Método Direto | Divisão e Conquista | Quick Sort | D&C + QS |
